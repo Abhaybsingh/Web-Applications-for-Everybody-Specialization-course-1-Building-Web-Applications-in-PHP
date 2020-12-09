@@ -1,0 +1,89 @@
+php for server 
+mysql for databases 
+javascript to connect browser and server
+
+Http protocol in our browser,  when we press enter it 
+will cause a GET request to the server, server will
+send the response in  form of html browser parses it and 
+rendered and shown.
+
+Request and response cycle
+connect to the server - a handshake
+Request a document 
+
+When we click on enter a request is sent to a server using http and 
+then php file associats and runs the php and it makes connections 
+to the database and it read the database and comes backand sends 
+a response.
+
+Response can be separated as header data, body data
+header data is also called as meta data.
+
+HTML parse these response.
+
+It populates the DOM and runs some javascript and changes the DOM.
+
+
+CSS file 
+when the response is arrived the CSS file associated with html is 
+fetched and it also affect the DOM. CSS file shows how to render html.
+
+  
+PHP 
+\n doesn't work in single quoted string 
+
+echo is a languqge construct can have more parameter
+print is a function and can't have more than one parameter
+
+key value pair array
+=> this symbol is used to map the value
+print_r is used to dump all the data of the array
+here r means recursion
+
+var_dump same as print_r but low level
+it can print false as bool(false)
+
+
+foreach($array as $key => $value)   this is used to print the array by 
+foreach loop
+
+count($array) function is used to know the size of array
+
+isset is used to check of the key exiwt in an array
+is_array is used to check if the parameter is an array 
+ksort
+asort 
+
+
+connect request response cycle and php array
+
+when browser sends a request with http apache server retreives it then it
+runs the php code and then if at the end of the url is therer any values
+these values stored in global array $_GET this is defined before the first line
+of the code executes
+
+global is used to define global variable
+
+function_exists isused to check if the function exists
+
+require - pull in the file here and die if it is missing 
+
+
+GET and POST request
+
+in get data the data comes in by url
+in post the data comes i using post and it stored in $_POST array
+
+get is used for searching
+post is used for modifying th data
+
+
+HTML input type
+in input tag , the name parameter is saved in $_GET or $_POST server
+
+HTMLENTITIEES IS USED TO AVOID html INJECTION IN OUR DATABASE THROUGH HTML
+
+
+
+In server valiadtion
+When data is send to the server the validation of the data must be done
